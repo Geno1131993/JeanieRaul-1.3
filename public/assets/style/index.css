@@ -13,11 +13,12 @@ body{
     height: 100%;
     background-size: cover;
     background-position: center;
+    min-width: 520px;
+
 }
 
 
 #wrapper{
-    min-width: 520px;
     background-color: red;
     float: left;
     position: absolute;
