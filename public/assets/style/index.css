@@ -27,15 +27,16 @@ body{
     right: 0;
     left: 0;
     width: 60%;
-    padding: .1%;
+    /* padding: .1%; */
 }  
 
 
 #logo{
-    margin: 1%;
-    font-size: 1rem;
+    margin: .75rem;
+    font-size: 2rem;
     overflow: hidden;
     background-color: yellow;
     white-space: nowrap;
-    min-width:30%;
+    min-width: 60%;
+    min-height: 90%;
 }
