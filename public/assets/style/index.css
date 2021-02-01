@@ -32,10 +32,9 @@ body{
 
 
 #logo{
-    margin: .75rem;
-    font-size: 2rem;
+    margin: 1%;
+    font-size: 100%;
     overflow: hidden;
-    background-color: yellow;
     white-space: nowrap;
     min-width: 60%;
     min-height: 90%;
