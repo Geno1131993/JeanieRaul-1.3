@@ -14,13 +14,11 @@ body{
     background-size: cover;
     background-position: center;
     min-width: 520px;
-    min-height: 520px;
-
 }
 
 
 #wrapper{
-    background-color: red;
+    background-color: rgba(160, 196, 255, 1);
     float: left;
     position: absolute;
     margin: auto;
@@ -31,3 +29,13 @@ body{
     width: 60%;
     padding: .1%;
 }  
+
+
+#logo{
+    margin: 1%;
+    font-size: 1rem;
+    overflow: hidden;
+    background-color: yellow;
+    white-space: nowrap;
+    min-width:30%;
+}
