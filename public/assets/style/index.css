@@ -42,6 +42,18 @@ body{
 }
 
 
+
+.image{
+    width: 8%;
+    height: 8%;
+}
+
+
+.inactive{
+    display: none;
+}
+
+
 #header{
 
 }
@@ -70,6 +82,6 @@ body{
     width: 200px;
     margin: 1%;
     overflow: auto;
-    margin-left: 1% auto;
-    margin-right: 1% auto;
+    margin-left: 2% auto;
+    margin-right: 2% auto;
 }
