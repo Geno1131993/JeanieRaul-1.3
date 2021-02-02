@@ -20,7 +20,7 @@ body{
 #wrapper{
     float: left;
     position: absolute;
-    margin: auto;
+    /* margin: auto; */
     top: 0;
     left: 0;
     right: 0;
@@ -29,6 +29,10 @@ body{
     height: 100%;
     background-color: green;
     overflow: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
 }  
 
 
@@ -56,6 +60,9 @@ body{
 #tab-container{
     width: 100%;
     float:left;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 
