@@ -13,14 +13,3 @@ $(".tablink").on("click", function(event) {
         $(target).fadeIn(500).addClass("active").removeClass("inactive");
     }
 });
-
-
-$(document).ready(()=>{
-
-    console.log("From console.");
-    let inactives = document.getElementsByClassName("inactive");
-    for(let i = 0; i < inactives.length; i++){
-        console.log(inactives[i]);
-    }
-
-});
