@@ -17,21 +17,6 @@ body{
 }
 
 
-#wrapper{
-    float: left;
-    position: absolute;
-    left: 0;
-    right: 0;
-    width: 80%;
-    height: 100%;
-    background-color: green;
-    overflow: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;    
-}  
-
-
 
 .banner{
     background-color: rgba(160, 196, 255, 1);
@@ -42,8 +27,8 @@ body{
 
 
 .image{
-    width: 18em;
-    height: 18em;
+    width: 15em;
+    height: 15em;
 }
 
 
@@ -72,7 +57,7 @@ body{
 
 
 .content-text{
-    font-size: 2em;
+    font-size: 1em;
     padding: 3%;
 }
 
@@ -85,26 +70,80 @@ body{
 
 .card{
     min-width: 520px;
-    margin-right: auto;
-    margin-left: auto;
+    margin: 1% auto;
+    float: left;
+    min-height: 300px;
+}
+
+
+
+.card-body{
+    margin: 1%;
+    white-space: nowrap;
+}
+
+
+
+.card-image{
+    width: 15em;
+    height: 15em;
+    margin: 2%;
     float: left;
 }
 
 
-.card-image{
-    width: 18em;
-    height: 18em;
+
+.position-title{
+    font-size: 1.5em;
+    white-space: nowrap;
 }
+
+
+.contact-title{
+    font-size: 1.5em;
+    white-space: nowrap;
+}
+
+
+
+
 
 #header{
 
 }
 
 
+
+#wrapper{
+    float: left;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 80%;
+    height: 100%;
+    background-color: green;
+    overflow: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;    
+}  
+
+
+
 #about-container{
     margin-top: 2%;
     margin-right: auto;
     margin-left: auto;
+    font-size: 1em;
+}
+
+
+#about-title{
+    white-space: nowrap;
+}
+
+#card-container{
+    padding: 1%;
 }
 
 #logo{
