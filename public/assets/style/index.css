@@ -63,7 +63,7 @@ body{
 
 
 .title{
-    font-size: 2rem;
+    font-size: 3em;
     white-space: nowrap;
 }
 
@@ -131,22 +131,15 @@ body{
 
 
 
-#about-container{
+#about{
     margin-top: 2%;
     margin-right: auto;
     margin-left: auto;
     font-size: 1.2em;
-    @media only screen and (max-device-width: 600px){
-        font-size: 1em;
-    }
     padding: 2%;
     width: 95%;
 }
 
-
-#about-title{
-    white-space: nowrap;
-}
 
 #card-container{
     padding: 1%;
