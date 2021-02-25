@@ -187,8 +187,14 @@ body{
 
 @media only screen and (max-device-width: 600px){
 
+    body{
+        background-color: blue;
+    }
+
+
+
     #about{
-        font-size: 1em;
+        font-size: .5em;
     }
 
 
