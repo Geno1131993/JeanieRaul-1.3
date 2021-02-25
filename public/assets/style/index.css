@@ -216,6 +216,12 @@ body{
     }
 
 
+    #content_container{
+        min-width: 520px;
+        margin: 1% auto;
+    }
+
+
     .title{
         font-size: 2em;
     }
@@ -228,6 +234,8 @@ body{
     .content-text{
         font-size: 1em;
     }
+
+    
 
 
 }
