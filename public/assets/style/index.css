@@ -193,7 +193,7 @@ body{
 
 #content_container{
     display: block;
-    width: 100%;
+    /* width: 100%; */
 }
 
 
@@ -217,7 +217,6 @@ body{
 
 
     #content_container{
-        min-width: 520px;
         margin: 1% auto;
     }
 
