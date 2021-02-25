@@ -218,6 +218,7 @@ body{
 
     #content_container{
         margin: 1% auto;
+        max-width: 100%;
     }
 
 
