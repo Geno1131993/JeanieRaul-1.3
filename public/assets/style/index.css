@@ -199,9 +199,12 @@ body{
 
 @media only screen and (max-device-width: 600px){
 
+    *{
+        word-wrap: break-word;
+    }
+
     body{
         background-color: blue;
-        white-space: wrap;
     }
 
 
