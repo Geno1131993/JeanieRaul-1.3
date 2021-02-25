@@ -224,6 +224,8 @@ body{
 
     .title{
         font-size: 2em;
+        white-space: normal;
+
     }
     .image{
         width: 2.5em;
