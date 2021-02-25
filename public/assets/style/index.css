@@ -201,6 +201,7 @@ body{
 
     body{
         background-color: blue;
+        white-space: wrap;
     }
 
 
