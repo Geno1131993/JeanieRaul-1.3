@@ -227,6 +227,8 @@ body{
         white-space: normal;
 
     }
+
+
     .image{
         width: 2.5em;
         height: 2.5em;
@@ -249,6 +251,8 @@ body{
     }
 
     
-
+    .card{
+        width: 95%;
+    }
 
 }
