@@ -200,7 +200,7 @@ body{
 @media only screen and (max-device-width: 600px){
 
     *{
-        word-wrap: break-word;
+        white-space: normal;
     }
 
     body{
