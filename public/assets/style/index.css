@@ -16,7 +16,7 @@ body{
     background-size: cover;
     background-attachment: fixed;
     min-height: 740px;
-    min-width: 520px;
+    /* min-width: 520px; */
     overflow: hidden;
 }
 
