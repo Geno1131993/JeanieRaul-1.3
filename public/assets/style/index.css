@@ -260,7 +260,7 @@ body{
 
     #content_container{
         margin: 1% auto;
-        margin-left: 5%;
+        /* margin-left: 5%; */
         width: 100%;
     }
 
@@ -290,6 +290,7 @@ body{
 
 
     .content{
+        /* width: 100%; */
         margin: 1% auto;
     }
 
