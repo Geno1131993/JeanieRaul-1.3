@@ -260,7 +260,7 @@ body{
 
     #content_container{
         margin: 1% auto;
-        /* padding: 1%; */
+        margin-left: 5%;
         width: 100%;
     }
 
@@ -268,7 +268,7 @@ body{
     .card{
         /* width: 90%; */
         min-width: 90%;
-        margin-right: 5%;
+        /* margin-right: 5%; */
     }
 
 
