@@ -8,9 +8,6 @@
 
 
 
-
-
-
 body{
     background-color: rgba(0, 112, 224,  1);
     width: 100%;
@@ -24,21 +21,11 @@ body{
 }
 
 
-
 .banner{
     background-color: rgba(160, 196, 255, 1);
     width: 100%;
     overflow: auto;
     z-index: 10;
-}
-
-
-
-.image{
-    width: 10em;
-    height: 10em;
-    z-index: 10;
-
 }
 
 
@@ -62,6 +49,39 @@ body{
 }
 
 
+.card{
+    min-width: 400px;
+    height: 300px;
+    margin: 1% auto;
+    margin-left: 2%;
+    float: left;
+    padding: 1%;
+    border-radius: 8px;
+    z-index: 10;
+
+}
+
+
+.card-body{
+    margin: 1%;
+    white-space: nowrap;
+    float: left;
+    left: 0;
+    z-index: 10;
+}
+
+
+
+.card-image{
+    width: 10rem;
+    height: 10rem;
+    margin: 3%;
+    float: left;
+    z-index: 10;
+}
+
+
+
 .content{
     padding: 3%;
     float: left;
@@ -73,15 +93,7 @@ body{
     width: 100%;
     height: 25rem;
     z-index: 10;
-
 }
-
-
-.inactive{
-    display: none;
-}
-
-
 
 
 .content-text{
@@ -103,42 +115,14 @@ body{
     padding: 1%;
     border-radius: 15px;
     z-index: 10;
-
 }
 
 
 
-.card{
-    min-width: 400px;
-    height: 300px;
-    margin: 1% auto;
-    margin-left: 2%;
-    float: left;
-    padding: 1%;
-    border-radius: 8px;
+.image{
+    width: 10em;
+    height: 10em;
     z-index: 10;
-
-}
-
-
-.card-body{
-    margin: 1%;
-    white-space: nowrap;
-    float: left;
-    left: 0;
-    z-index: 10;
-
-}
-
-
-
-.card-image{
-    width: 10rem;
-    height: 10rem;
-    margin: 3%;
-    float: left;
-    z-index: 10;
-
 }
 
 
@@ -158,14 +142,23 @@ body{
 
 
 
-
-
 #header{
-    /* position: relative; */
     z-index: 10;
 }
 
 
+
+#logo{
+    margin: 1.2%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2.4rem;
+    height: 3em;
+    width: 80%;
+    font-family: Garamond, serif;
+    z-index: 10;
+
+}
 
 
 #wrapper{
@@ -186,6 +179,16 @@ body{
 }  
 
 
+#about{
+    margin-top: 2%;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 1em;
+    padding: 2%;
+    width: 95%;
+    z-index: 10;
+}
+
 
 #tab_wrapper{
     margin: 5%;
@@ -195,20 +198,6 @@ body{
     height: 50em;
     padding: 3%;
     z-index: 10;
-
-}
-
-
-
-#about{
-    margin-top: 2%;
-    margin-right: auto;
-    margin-left: auto;
-    font-size: 1em;
-    padding: 2%;
-    width: 95%;
-    z-index: 10;
-
 }
 
 
@@ -219,23 +208,7 @@ body{
     margin-bottom: 2%;
     width: 100%;
     z-index: 10;
-
 }
-
-
-
-#logo{
-    margin: 1.2%;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 2.4rem;
-    height: 3em;
-    width: 80%;
-    font-family: Garamond, serif;
-    z-index: 10;
-
-}
-
 
 
 
@@ -251,13 +224,11 @@ body{
     padding: 1%;
     border-radius: 8px;
     z-index: 10;
-
 }
 
 
 
 #content_container{
-    /* background-color: rgba(96, 156, 255, 1); */
     margin: 1%;
     height: 35em;
     border-radius: 10px;
@@ -265,13 +236,12 @@ body{
     width: 97%;
     overflow: auto;
     z-index: 10;
-
 }
 
 
-
-
-
+.inactive{
+    display: none;
+}
 
 
 @media only screen and (max-device-width: 600px){
@@ -280,12 +250,7 @@ body{
         white-space: normal;
     }
 
-    body{
-        background-color: blue;
-    }
-
-
-
+    
     #about{
         font-size: 1em;
     }
@@ -297,15 +262,12 @@ body{
 
     #content_container{
         margin: 1% auto;
-        /* margin-left: 5%; */
         width: 100%;
     }
 
 
     .card{
-        /* width: 90%; */
         min-width: 100%;
-        /* margin-right: 5%; */
     }
 
 
@@ -327,7 +289,6 @@ body{
 
 
     .content{
-        /* width: 100%; */
         margin: 1% auto;
     }
 
@@ -337,6 +298,5 @@ body{
         width: 80%;
         font-size: 1.5rem;
     }
-
 
 }
