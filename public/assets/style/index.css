@@ -37,7 +37,22 @@ body{
     overflow: auto;
     margin: 1% auto;
     z-index: 10;
+    transition: .5s;
+}
 
+
+
+.tablink:hover{
+    background-color: rgba(245, 220, 220, 1);
+    transition: .5s;
+    transform: scale(1.05);
+}
+
+
+.tablink:active{
+    background-color: rgba(202, 231, 223, 1);
+    transition: .5s;
+    transform: scale(1.05);
 }
 
 
@@ -45,7 +60,6 @@ body{
     font-family: Garamond, serif;
     font-size: 1.5rem;
     z-index: 10;
-
 }
 
 
@@ -59,7 +73,6 @@ body{
     border-radius: 8px;
     z-index: 10;
     transition: .5s;
-
 }
 
 
@@ -68,6 +81,7 @@ body{
     transform: scale(1.1);
     z-index: 11;
     transition: .5s;
+    background-color: rgba(245, 220, 220, 1);
 }
 
 
@@ -197,6 +211,19 @@ body{
 }
 
 
+#about-title{
+    transition: .5s;
+}
+
+
+
+#about-title:hover{
+    background-color: rgba(245, 220, 220, 1);
+    transition: .5s;
+    transform: scale(1.1);
+}
+
+
 #tab_wrapper{
     margin: 5%;
     background-color: rgba(217, 203, 198, 1);
@@ -251,10 +278,21 @@ body{
 }
 
 
+.active{
+    transform: scale(1.05);
+    background-color: 
+}
+
+
 @media only screen and (max-device-width: 600px){
 
     *{
         white-space: normal;
+    }
+
+
+    body{
+        background-color: rgba(255, 187, 152, 1);
     }
 
     
