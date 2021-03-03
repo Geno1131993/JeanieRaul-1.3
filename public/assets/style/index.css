@@ -9,6 +9,7 @@
 
 
 
+
 body{
     background-color: rgba(0, 112, 224,  1);
     width: 100%;
@@ -16,7 +17,6 @@ body{
     background-size: cover;
     background-attachment: fixed;
     min-height: 740px;
-    overflow: auto;
     display: block;
 }
 
@@ -148,7 +148,8 @@ body{
     position: absolute;
     left: 0;
     right: 0;
-    width: 105rem;
+    font-size: 100%;
+    width: 80rem;
     background-color: rgba(255, 255, 255, .75);
     display: block;
     margin-left: auto;
