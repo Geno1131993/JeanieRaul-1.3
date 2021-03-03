@@ -17,7 +17,7 @@ body{
     height: 145rem;
     background-size: cover;
     background-attachment: fixed;
-    position: absolute;
+    position: relative;
     min-height: 740px;
     display: block;
 }
@@ -265,7 +265,8 @@ body{
 
 
     .card{
-        width: 90%;
+        /* width: 90%; */
+        min-width: 90%;
     }
 
 
