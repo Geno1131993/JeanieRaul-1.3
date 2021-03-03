@@ -11,7 +11,7 @@
   }
   .d1 {
     position: absolute;
-    background-image: url("../images/vic-fazio-2.jpg");
+    background-image: url("../images/vic-fazio-2.png");
     background-size: 2700px 1500px;
   
     height: 40rem;
@@ -29,7 +29,7 @@
   }
   .d2 {
     position: absolute;
-    background-image: url("../images/vic-fazio-2.jpg");
+    background-image: url("../images/vic-fazio-2.png");
     background-size: 2700px 1500px;
   
     height: 70rem;
@@ -48,7 +48,7 @@
   }
   .d3 {
     position: absolute;
-    background-image: url("../images/vic-fazio-2.jpg");
+    background-image: url("../images/vic-fazio-2.png");
     background-size: 2700px 1500px;
     overflow: hidden;
   
@@ -69,7 +69,7 @@
   .d4 {
     position: absolute;
     overflow: hidden;
-    background-image: url("../images/vic-fazio-2.jpg");
+    background-image: url("../images/vic-fazio-2.png");
     background-size: 2700px 1500px;
   
     height: 50rem;
